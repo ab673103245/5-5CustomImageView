@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="CustomImageView">
+      <attr name="shape" format="enum">
+          <enum name="circle" value="0"></enum>
+          <enum name="roundrect" value="1"></enum>
+          <enum name="rect" value="2"></enum>
+          <enum name="oval" value="3"></enum>
+          <enum name="rhombus" value="4"></enum>
+          <enum name="hexagon" value="5"></enum>
+      </attr>
+      <attr name="rotate" format="integer">
+      </attr>
+      <!-- 不枚举的话，直接写度数就好了 -->
+  </declare-styleable>
+    <!--
+     private final static int RHOMBUS = 4;
+    private final static int HEXAGON = 5;-->
+</resources>
